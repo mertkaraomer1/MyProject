@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddAutoMapper(typeof(Program));
 
 
 var app = builder.Build();
