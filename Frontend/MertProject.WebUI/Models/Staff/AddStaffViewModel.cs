@@ -1,4 +1,4 @@
-﻿namespace MertProject.WebUI.Views.Staff
+﻿namespace MertProject.WebUI.Models.Staff
 {
     public class AddStaffViewModel
     {
